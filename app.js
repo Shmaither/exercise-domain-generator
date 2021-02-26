@@ -10,8 +10,9 @@ for (let i = 0; i < pronoun.length; i++) {
             for (let l = 0; l < domains.length; l++) {
 
                 let domainLength = domains[l].length;
-                //*********** with comments first solution */
-                //noun[k]
+                //*********** With comments first solution ***********//
+                // first solutions just change the end of the array noun
+                // just use noun[k] instead of fullword variable
                 //let lastCharFromNoun = noun[k].slice(0, -domainLength);
 
                 let fullWord = pronoun[i] + adj[j] + noun[k];
